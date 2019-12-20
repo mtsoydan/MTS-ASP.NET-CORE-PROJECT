@@ -1,0 +1,4 @@
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Nortwind.Entities\obj\Debug\netcoreapp2.2\MTS.Nortwind.Entities.csprojAssemblyReference.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Nortwind.Entities\obj\Debug\netcoreapp2.2\MTS.Nortwind.Entities.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Nortwind.Entities\obj\Debug\netcoreapp2.2\MTS.Nortwind.Entities.AssemblyInfoInputs.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Nortwind.Entities\obj\Debug\netcoreapp2.2\MTS.Nortwind.Entities.AssemblyInfo.cs
