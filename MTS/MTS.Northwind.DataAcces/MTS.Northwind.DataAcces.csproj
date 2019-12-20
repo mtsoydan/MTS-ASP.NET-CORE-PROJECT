@@ -8,4 +8,9 @@
     <ProjectReference Include="..\MTS.Core\MTS.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Concrete\" />
+  </ItemGroup>
+
 </Project>

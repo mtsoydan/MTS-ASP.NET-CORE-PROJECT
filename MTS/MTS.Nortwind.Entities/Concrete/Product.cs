@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MTS.Core.Entities;
 
 namespace MTS.Nortwind.Entities.Concrete
 {
