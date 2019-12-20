@@ -6,10 +6,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MTS.Core\MTS.Core.csproj" />
+    <ProjectReference Include="..\MTS.Nortwind.Entities\MTS.Nortwind.Entities.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
   </ItemGroup>
 

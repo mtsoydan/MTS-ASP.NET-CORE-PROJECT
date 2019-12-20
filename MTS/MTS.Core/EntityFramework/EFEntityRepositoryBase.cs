@@ -3,6 +3,9 @@ using MTS.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using System.Linq;
+
+
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,31 +19,52 @@ namespace MTS.Core.EntityFramework
         public void Add(TEntity Entity)
         {
             //Idisposibleımızıtanımlayalım
+            using (var context = new TContext())
+            {
+                var addedEntity = context.Entry(Entity);
+                addedEntity.State = EntityState.Added;
 
-           
+
+            }
         }
-
         public void Delete(TEntity Entity)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                var deletedEntity = context.Entry(Entity);
+                deletedEntity.State = EntityState.Deleted;
+
+
+            }
         }
 
         public TEntity Get(Expression<Func<TEntity, bool>> Filter)
         {
             using (var context = new TContext())
             {
-                return context.Set<TContext>().SingleOrDefaultAsync(Filter);
+                return context.Set<TEntity>().SingleOrDefault(Filter);
             }
         }
 
-        public TEntity GetList(Expression<Func<TEntity, bool>> Filter = null)
+        public List<TEntity> GetList(Expression<Func<TEntity, bool>> Filter = null)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                return context == null ?
+                     context.Set<TEntity>().ToList() :
+                     context.Set<TEntity>().Where(Filter).ToList();
+            }
         }
 
         public void Update(TEntity Entity)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                var updatedEntity = context.Entry(Entity);
+                updatedEntity.State = EntityState.Modified;
+
+
+            }
         }
     }
 }

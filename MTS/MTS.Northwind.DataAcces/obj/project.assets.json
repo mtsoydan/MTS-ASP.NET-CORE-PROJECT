@@ -458,6 +458,19 @@
         "runtime": {
           "bin/placeholder/MTS.Core.dll": {}
         }
+      },
+      "MTS.Nortwind.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "MTS.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MTS.Nortwind.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MTS.Nortwind.Entities.dll": {}
+        }
       }
     }
   },
@@ -1386,11 +1399,17 @@
       "type": "project",
       "path": "../MTS.Core/MTS.Core.csproj",
       "msbuildProject": "../MTS.Core/MTS.Core.csproj"
+    },
+    "MTS.Nortwind.Entities/1.0.0": {
+      "type": "project",
+      "path": "../MTS.Nortwind.Entities/MTS.Nortwind.Entities.csproj",
+      "msbuildProject": "../MTS.Nortwind.Entities/MTS.Nortwind.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "MTS.Core >= 1.0.0",
+      "MTS.Nortwind.Entities >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -1427,6 +1446,9 @@
           "projectReferences": {
             "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Core\\MTS.Core.csproj": {
               "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Core\\MTS.Core.csproj"
+            },
+            "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Nortwind.Entities\\MTS.Nortwind.Entities.csproj": {
+              "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Nortwind.Entities\\MTS.Nortwind.Entities.csproj"
             }
           }
         }
