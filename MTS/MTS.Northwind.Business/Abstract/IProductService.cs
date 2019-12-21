@@ -12,7 +12,7 @@ namespace MTS.Northwind.Business.Abstract
         List<Product> GetByCategory(Product product);
         void Add(Product product);
         void Update(Product product);
-        void Delete(int productId);
+        void Delete(Product product);
 
 
     }

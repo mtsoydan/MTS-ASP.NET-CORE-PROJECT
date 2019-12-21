@@ -15,20 +15,24 @@ namespace MTS._Northwind.MvcWebUI
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //gerekli interface ihtiyacları burada karşılanacak
+            services.AddMvc();
+            //services.AddScoped<>
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            //uygulama middleware katmanı burası istek,işlenme gibi durumlar oluşur
+            //core da istenilen işlemi istenilen zamanda ver performans arttırımı
+            //loglama , hata yakalama 
+            //Kendi middlewareleri yazabiliriz
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            app.UseMvcWithDefaultRoute();
         }
     }
 }

@@ -1,10 +1,12 @@
-﻿using System;
+﻿using MTS.Nortwind.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MTS.Northwind.Business.Abstract
 {
-    interface ICategoryService
+  public  interface ICategoryService
     {
+        List<Category> GetAll();
     }
 }

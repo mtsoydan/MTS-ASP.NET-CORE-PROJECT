@@ -6,7 +6,7 @@ using MTS.Nortwind.Entities.Concrete;
 
 namespace MTS.Northwind.DataAcces.Abstract
 {
-    interface IProductDal : IEntityRepository<Product>
+    public interface IProductDal : IEntityRepository<Product>
     {
         //Custom methods
     }

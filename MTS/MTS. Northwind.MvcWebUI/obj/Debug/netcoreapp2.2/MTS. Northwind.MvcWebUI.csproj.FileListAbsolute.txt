@@ -12,3 +12,12 @@ C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwin
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.RazorTargetAssemblyInfo.cache
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.dll
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\bin\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.Views.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\bin\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.Views.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.TagHelpers.input.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.TagHelpers.output.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.RazorCoreGenerate.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.g.cshtml.cs
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.RazorTargetAssemblyInfo.cs
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.Views.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS. Northwind.MvcWebUI\obj\Debug\netcoreapp2.2\MTS. Northwind.MvcWebUI.csproj.CopyComplete
