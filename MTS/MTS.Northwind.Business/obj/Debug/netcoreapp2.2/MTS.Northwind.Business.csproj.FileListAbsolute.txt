@@ -7,3 +7,10 @@ C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.2\MTS.Northwind.Business.AssemblyInfo.cs
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.2\MTS.Northwind.Business.dll
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.2\MTS.Northwind.Business.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.2\MTS.Core.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.2\MTS.Northwind.DataAcces.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.2\MTS.Nortwind.Entities.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.2\MTS.Core.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.2\MTS.Northwind.DataAcces.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.2\MTS.Nortwind.Entities.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.2\MTS.Northwind.Business.csproj.CopyComplete

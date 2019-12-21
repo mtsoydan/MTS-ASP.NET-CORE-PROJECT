@@ -5,7 +5,7 @@ using MTS.Core.Entities;
 
 namespace MTS.Nortwind.Entities.Concrete
 {
-    class Product : IEntity
+  public  class Product : IEntity
     {
         public int ProductID { get; set; }
         public string ProductionName { get; set; }

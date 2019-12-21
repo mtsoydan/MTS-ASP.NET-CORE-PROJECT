@@ -5,6 +5,5 @@ namespace MTS.Northwind.Business
 {
     public class Class1
     {
-        EFCategoryDal
-    }
+            }
 }
