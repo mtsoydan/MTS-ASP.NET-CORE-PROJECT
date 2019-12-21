@@ -1,0 +1,16 @@
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.1\MTS.Northwind.Business.deps.json
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.1\MTS.Northwind.Business.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.1\MTS.Northwind.Business.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.1\MTS.Core.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.1\MTS.Northwind.Entities.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.1\MTS.Core.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\bin\Debug\netcoreapp2.1\MTS.Northwind.Entities.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.1\MTS.Northwind.Business.csprojAssemblyReference.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.1\MTS.Northwind.Business.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.1\MTS.Northwind.Business.AssemblyInfoInputs.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.1\MTS.Northwind.Business.AssemblyInfo.cs
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.1\MTS.Northwind.Business.csproj.CopyComplete
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.1\MTS.Northwind.Business.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Business\obj\Debug\netcoreapp2.1\MTS.Northwind.Business.pdb

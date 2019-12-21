@@ -1,4 +1,4 @@
-﻿using MTS.Nortwind.Entities.Concrete;
+﻿using MTS.Northwind.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;

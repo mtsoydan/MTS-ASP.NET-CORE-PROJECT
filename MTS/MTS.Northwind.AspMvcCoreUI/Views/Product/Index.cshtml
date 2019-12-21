@@ -1,0 +1,25 @@
+﻿@model MTS.Northwind.AspMvcCoreUI.Models.ProductListViewModel
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+
+<body>
+    <table class="table table-responsive">
+        <tr>
+            <td>ProductID </td>
+            <td>ProductName</td> 
+            <td>UnitsInStock</td>
+        </tr>
+        @foreach (var product in Model.Products)
+        {
+        <tr>
+            <td>@product.ProductID </td>
+            <td>@product.ProductName</td>
+            <td>@product.UnitsInStock</td>
+        </tr>
+        }
+    </table>
+</body>

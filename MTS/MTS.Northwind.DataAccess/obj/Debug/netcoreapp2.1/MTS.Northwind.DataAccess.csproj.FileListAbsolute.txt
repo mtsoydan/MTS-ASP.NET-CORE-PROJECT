@@ -1,0 +1,14 @@
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\bin\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.deps.json
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\bin\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\bin\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\bin\Debug\netcoreapp2.1\MTS.Core.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\bin\Debug\netcoreapp2.1\MTS.Northwind.Entities.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\bin\Debug\netcoreapp2.1\MTS.Core.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\bin\Debug\netcoreapp2.1\MTS.Northwind.Entities.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\obj\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.csprojAssemblyReference.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\obj\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\obj\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.AssemblyInfoInputs.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\obj\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.AssemblyInfo.cs
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\obj\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.csproj.CopyComplete
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\obj\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.DataAccess\obj\Debug\netcoreapp2.1\MTS.Northwind.DataAccess.pdb

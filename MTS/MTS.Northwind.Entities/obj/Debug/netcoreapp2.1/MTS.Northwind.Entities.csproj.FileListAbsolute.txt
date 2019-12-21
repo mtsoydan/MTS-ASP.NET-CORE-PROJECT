@@ -1,0 +1,12 @@
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\bin\Debug\netcoreapp2.1\MTS.Northwind.Entities.deps.json
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\bin\Debug\netcoreapp2.1\MTS.Northwind.Entities.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\bin\Debug\netcoreapp2.1\MTS.Northwind.Entities.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\bin\Debug\netcoreapp2.1\MTS.Core.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\bin\Debug\netcoreapp2.1\MTS.Core.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\obj\Debug\netcoreapp2.1\MTS.Northwind.Entities.csprojAssemblyReference.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\obj\Debug\netcoreapp2.1\MTS.Northwind.Entities.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\obj\Debug\netcoreapp2.1\MTS.Northwind.Entities.AssemblyInfoInputs.cache
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\obj\Debug\netcoreapp2.1\MTS.Northwind.Entities.AssemblyInfo.cs
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\obj\Debug\netcoreapp2.1\MTS.Northwind.Entities.csproj.CopyComplete
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\obj\Debug\netcoreapp2.1\MTS.Northwind.Entities.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Northwind.Entities\obj\Debug\netcoreapp2.1\MTS.Northwind.Entities.pdb

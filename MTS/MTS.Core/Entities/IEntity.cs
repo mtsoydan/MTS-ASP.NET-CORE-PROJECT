@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MTS.Core.Entities
 {
-   public interface IEntity
+    public interface Ientity
     {
     }
 }

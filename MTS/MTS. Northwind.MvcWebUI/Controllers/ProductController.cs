@@ -8,6 +8,7 @@ namespace MTS._Northwind.MvcWebUI.Controllers
 {
     public class ProductController : Controller
     {
+        IProductService
         public ActionResult Index()
         {
             return View();
