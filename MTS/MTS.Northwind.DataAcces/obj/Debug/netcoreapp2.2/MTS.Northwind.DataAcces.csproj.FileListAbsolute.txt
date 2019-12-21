@@ -10,3 +10,5 @@ C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.DataAcces\obj\Debug\netcoreapp2.2\MTS.Northwind.DataAcces.csproj.CopyComplete
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.DataAcces\obj\Debug\netcoreapp2.2\MTS.Northwind.DataAcces.dll
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.DataAcces\obj\Debug\netcoreapp2.2\MTS.Northwind.DataAcces.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.DataAcces\bin\Debug\netcoreapp2.2\MTS.Nortwind.Entities.dll
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.DataAcces\bin\Debug\netcoreapp2.2\MTS.Nortwind.Entities.pdb
