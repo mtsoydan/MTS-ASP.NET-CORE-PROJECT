@@ -47,7 +47,7 @@ namespace MTS.Core.DataAccess.EntityFrameWork
         {
             using (var context = new Tcontext())
             {
-                if (context != null)
+                if (filter == null)
                 {
                     return context.Set<Tentity>().ToList();
                 }

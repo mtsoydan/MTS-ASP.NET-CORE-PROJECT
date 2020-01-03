@@ -15,10 +15,10 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
         {
             _productService = productService;
         }
-        public IActionResult Index(int pageID=1)
+        public IActionResult Index(int pageID=1,int categoryID=0)
         {
             int pageSize = 10;
-            var products = _productService.GetAll();
+            var products = _productService.GetByCategory(categoryID);
             ProductListViewModel model = new ProductListViewModel()
             {
                 Products = products.Skip((pageID - 1) * 10).Take(pageSize).ToList()

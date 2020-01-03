@@ -31,7 +31,10 @@ namespace MTS.Northwind.Business.Concrete
 
         public List<Product> GetByCategory(int categoryID)
         {
-            return _productDal.GetList(p => p.CategoryID == categoryID);
+
+
+
+            return _productDal.GetList(p => p.CategoryID == categoryID || categoryID == 0);
         }
 
         public void Update(Product product)
