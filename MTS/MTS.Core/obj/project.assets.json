@@ -3476,11 +3476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Core\\MTS.Core.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Core\\MTS.Core.csproj",
       "projectName": "MTS.Core",
-      "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Core\\MTS.Core.csproj",
+      "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Core\\MTS.Core.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Core\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

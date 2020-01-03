@@ -1,0 +1,20 @@
+﻿
+
+@model MTS.Northwind.AspMvcCoreUI.Models.CategoryListViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Default</title>
+</head>
+<body>
+    <div class="list-group">
+        @foreach (var category in Model.categories)
+        {
+        <a href="#" class="list-group-item">@category.CategoryName</a>
+        }
+    </div>
+</body>
+</html>

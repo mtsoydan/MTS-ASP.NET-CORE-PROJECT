@@ -11,6 +11,7 @@ namespace MTS.Northwind.AspMvcCoreUI.Middlewares
     public static class ApplicationBuilderExtentions
     {
         //modullerimizi yöneteceğimiz extension modulü yazıyoruz
+        //Extend ettiğimiz kısmı this olarak buraya yazmalıyız
         public static IApplicationBuilder UseNodeModules(this IApplicationBuilder app,string root)
         {
             var path = Path.Combine(root, "node_modules");

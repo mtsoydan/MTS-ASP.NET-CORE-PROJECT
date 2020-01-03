@@ -3536,11 +3536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Northwind.Business\\MTS.Northwind.Business.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Northwind.Business\\MTS.Northwind.Business.csproj",
       "projectName": "MTS.Northwind.Business",
-      "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Northwind.Business\\MTS.Northwind.Business.csproj",
+      "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Northwind.Business\\MTS.Northwind.Business.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Northwind.Business\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Northwind.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3560,14 +3560,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Core\\MTS.Core.csproj": {
-              "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Core\\MTS.Core.csproj"
+            "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Core\\MTS.Core.csproj": {
+              "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Core\\MTS.Core.csproj"
             },
-            "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Northwind.DataAccess\\MTS.Northwind.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Northwind.DataAccess\\MTS.Northwind.DataAccess.csproj"
+            "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Northwind.DataAccess\\MTS.Northwind.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Northwind.DataAccess\\MTS.Northwind.DataAccess.csproj"
             },
-            "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Northwind.Entities\\MTS.Northwind.Entities.csproj": {
-              "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-PRACTICE\\MTS\\MTS.Northwind.Entities\\MTS.Northwind.Entities.csproj"
+            "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Northwind.Entities\\MTS.Northwind.Entities.csproj": {
+              "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\ASP.NET-CORE-MVC-SAMPLE-PROJECT\\MTS\\MTS.Northwind.Entities\\MTS.Northwind.Entities.csproj"
             }
           }
         }
