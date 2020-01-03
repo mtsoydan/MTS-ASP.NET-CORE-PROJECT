@@ -15,12 +15,13 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
         {
             _productService = productService;
         }
-        public IActionResult Index()
+        public IActionResult Index(int pageID=1)
         {
+            int pageSize = 10;
             var products = _productService.GetAll();
             ProductListViewModel model = new ProductListViewModel()
             {
-                Products = products
+                Products = products.Skip((pageID - 1) * 10).Take(pageSize).ToList()
             }; 
             return View(model);
         }

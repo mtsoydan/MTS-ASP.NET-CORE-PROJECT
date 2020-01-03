@@ -38,13 +38,12 @@
             </div>
         </nav>
     </div>
+    <div class="row">
+        <div class="col-md-3">@await Component.InvokeAsync("CategoryList")</div>
+        <div class="col-md-8"> @RenderBody() </div>
+    </div>
 
-    <div class="col-md-2">@await Component.InvokeAsync("CategoryList")</div>
-    <div class="col-md-10">
-        @RenderBody()
-    </div>
-    <div class="col-md-12">
-        Footer
-    </div>
+    
+    <div class="col-md-12">Footer</div>
 </body>
 </html>
