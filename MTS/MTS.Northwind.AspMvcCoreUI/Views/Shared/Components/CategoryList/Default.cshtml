@@ -13,7 +13,12 @@
     <div class="list-group">
         @foreach (var category in Model.categories)
         {
-        <a href="/product/index?categoryID=@category.CategoryID" class="list-group-item">@category.CategoryName</a>
+            var css = "list-group-item";
+            if (category.CategoryID == Model.current_categories)
+            {
+                css += " active";
+            }
+        <a href="/product/index?categoryID=@category.CategoryID" class="@css">@category.CategoryName</a>
         }
     </div>
 </body>

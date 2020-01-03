@@ -9,5 +9,6 @@ namespace MTS.Northwind.AspMvcCoreUI.Models
     public class CategoryListViewModel
     {
         public List<Category> categories { get; internal set; }
+        public int current_categories { get; internal set; }
     }
 }
