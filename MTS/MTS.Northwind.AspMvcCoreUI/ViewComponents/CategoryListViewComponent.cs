@@ -22,6 +22,7 @@ namespace MTS.Northwind.AspMvcCoreUI.ViewComponents
             var model = new Models.CategoryListViewModel
             {
                 categories = _categoryService.GetAll(),
+                //Linkte giden CategoryID yi yakalayıp modelle birlikte view a gönderdik
                 current_categories = Convert.ToInt32(HttpContext.Request.Query["categoryID"])
             };
             return View(model);

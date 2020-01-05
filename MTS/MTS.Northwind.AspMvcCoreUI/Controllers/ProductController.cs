@@ -21,7 +21,14 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
             var products = _productService.GetByCategory(categoryID);
             ProductListViewModel model = new ProductListViewModel()
             {
-                Products = products.Skip((pageID - 1) * 10).Take(pageSize).ToList()
+
+                Products = products.Skip((pageID - 1) * 10).Take(pageSize).ToList(),
+                pageCount = (int)Math.Ceiling(products.Count / (double)pageSize),
+                //Kendi tag helperımızı yazmak için gerekli propertyleri yolluyoruz
+                currenCategory = categoryID,
+                PageSize = pageSize,
+                currentPage = pageID
+
             }; 
             return View(model);
         }

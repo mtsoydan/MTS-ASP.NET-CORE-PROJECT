@@ -63,3 +63,4 @@ C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.AspMvcCoreUI\obj\Debug\netcoreapp2.2\MTS.Northwind.AspMvcCoreUI.dll
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.AspMvcCoreUI\obj\Debug\netcoreapp2.2\MTS.Northwind.AspMvcCoreUI.pdb
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.AspMvcCoreUI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\CategoryList\Default.g.cshtml.cs
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.AspMvcCoreUI\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs

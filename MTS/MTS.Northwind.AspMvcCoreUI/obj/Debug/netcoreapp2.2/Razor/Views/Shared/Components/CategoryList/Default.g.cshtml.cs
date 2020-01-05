@@ -14,6 +14,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"eb333a77c2ba52079a38bc4ed87cdac1eb4f3c9b", @"/Views/Shared/Components/CategoryList/Default.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2421a4c92b49db66a9fc6e13127e7667e9b01957", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_CategoryList_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<MTS.Northwind.AspMvcCoreUI.Models.CategoryListViewModel>
     {
         #line hidden
@@ -46,7 +47,7 @@ namespace AspNetCore
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(97, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb333a77c2ba52079a38bc4ed87cdac1eb4f3c9b3285", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb333a77c2ba52079a38bc4ed87cdac1eb4f3c9b3449", async() => {
                 BeginContext(103, 89, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Default</title>\r\n");
                 EndContext();
@@ -66,7 +67,7 @@ namespace AspNetCore
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(201, 411, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb333a77c2ba52079a38bc4ed87cdac1eb4f3c9b4562", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb333a77c2ba52079a38bc4ed87cdac1eb4f3c9b4726", async() => {
                 BeginContext(207, 32, true);
                 WriteLiteral("\r\n    <div class=\"list-group\">\r\n");
                 EndContext();
