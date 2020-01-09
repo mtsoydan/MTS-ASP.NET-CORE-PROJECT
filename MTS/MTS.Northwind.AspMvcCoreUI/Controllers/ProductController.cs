@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MTS.Northwind.AspMvcCoreUI.Models;
 using MTS.Northwind.Business.Abstract;
@@ -31,6 +32,11 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
 
             }; 
             return View(model);
+        }
+        public string session()
+        {
+
+            HttpContext.Session.SetString("MTS","42")
         }
     }
 }

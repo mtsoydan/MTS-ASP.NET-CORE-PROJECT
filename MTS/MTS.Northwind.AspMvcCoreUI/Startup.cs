@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Session;
 using Microsoft.Extensions.DependencyInjection;
 using MTS.Northwind.Business.Abstract;
 using MTS.Northwind.AspMvcCoreUI.Middlewares;
@@ -24,6 +25,8 @@ namespace MTS.Northwind.AspMvcCoreUI
             services.AddScoped<IProductDal, EfProductDal>();
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
+            services.AddSession();
+            services.AddDistributedMemoryCache();
 
 
 
@@ -44,7 +47,7 @@ namespace MTS.Northwind.AspMvcCoreUI
             //Yerine use file server kullanabiliriz
             app.UseFileServer();
             //extension methodumuza env içindeki root u gönderip konfigrasyonu tamamlıyoruz
-
+            app.UseSession();
             app.UseNodeModules(env.ContentRootPath);
             app.UseMvcWithDefaultRoute();
         }
