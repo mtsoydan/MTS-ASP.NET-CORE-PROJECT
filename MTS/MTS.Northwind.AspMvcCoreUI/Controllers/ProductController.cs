@@ -33,10 +33,10 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
             }; 
             return View(model);
         }
-        public string session()
-        {
+        //public string session()
+        //{
 
-            HttpContext.Session.SetString("MTS","42")
-        }
+        //    HttpContext.Session.SetString("MTS", "42");
+        //}
     }
 }
