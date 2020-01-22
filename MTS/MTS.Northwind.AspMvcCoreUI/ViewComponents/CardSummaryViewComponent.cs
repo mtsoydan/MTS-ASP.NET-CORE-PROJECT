@@ -15,7 +15,7 @@ namespace MTS.Northwind.AspMvcCoreUI.ViewComponents
         ICartSessionService _cartSessionService;
         public CardSummaryViewComponent(ICartSessionService cartSessionService)
 
-        {
+        {//Card Session bilgisine erişip Invoke metodu içinde cart bilgilerini model yolluyoruz
             _cartSessionService = cartSessionService;
         }
          

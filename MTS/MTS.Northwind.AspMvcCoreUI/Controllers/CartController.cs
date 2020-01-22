@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MTS.Northwind.AspMvcCoreUI.Models;
 using MTS.Northwind.AspMvcCoreUI.Services;
 using MTS.Northwind.Business.Abstract;
 
@@ -45,6 +46,19 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
             TempData.Add("messega",string.Format("Your Product {0} , was succesfuly added to the cart",productToBeAdded.ProductName.ToString()));
             _cartSessionService.SetCart(cart);
           return  RedirectToAction("Index", "product");
+
+        }
+
+        public ActionResult List()
+        {
+            var cart = _cartSessionService.GetCart();
+            var model = new CartSummaryViewModel
+            {
+                Cart = cart
+            };
+            return View(model);
+
+
 
         }
     }
