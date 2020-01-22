@@ -8,7 +8,7 @@ namespace MTS.Northwind.DataAccess.Abstract
 {
   public  interface IProductDal : IEntityRepository<Product>
     {
-        
+
         //Custom operations 
     }
 }

@@ -13,6 +13,7 @@ namespace MTS.Northwind.Business.Abstract
         void Add(Product product);
         void Update(Product product);
         void Delete(Product productID);
+        Product GetByID(int ProductID);
 
 
     }

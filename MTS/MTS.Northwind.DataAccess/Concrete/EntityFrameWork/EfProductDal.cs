@@ -7,8 +7,9 @@ using System.Text;
 
 namespace MTS.Northwind.DataAccess.Concrete.EntityFrameWork
 {
-   public class EfProductDal :EFRepositoryBase<Product,NorthwindContext>,IProductDal
+    public class EfProductDal : EFRepositoryBase<Product, NorthwindContext>, IProductDal
     {
+       
     }
-  
+
 }

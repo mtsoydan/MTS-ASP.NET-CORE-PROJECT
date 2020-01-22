@@ -17,6 +17,7 @@ namespace MTS.Northwind.Business.Concrete
         public void Add(Product product)
         {
             _productDal.Add(product);
+            
         }
 
         public void Delete(Product productID)
@@ -35,6 +36,11 @@ namespace MTS.Northwind.Business.Concrete
 
 
             return _productDal.GetList(p => p.CategoryID == categoryID || categoryID == 0);
+        }
+
+        public Product GetByID(int ProductID)
+        {
+            return _productDal.Get(p => p.ProductID == ProductID);
         }
 
         public void Update(Product product)

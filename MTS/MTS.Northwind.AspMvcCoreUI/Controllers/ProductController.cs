@@ -37,6 +37,8 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
         //{
 
         //    HttpContext.Session.SetString("MTS", "42");
+        //    HttpContextAccessor httpContextAccessor;
+            
         //}
     }
 }

@@ -12,6 +12,7 @@ using MTS.Northwind.AspMvcCoreUI.Middlewares;
 using MTS.Northwind.Business.Concrete;
 using MTS.Northwind.DataAccess.Abstract;
 using MTS.Northwind.DataAccess.Concrete.EntityFrameWork;
+using MTS.Northwind.AspMvcCoreUI.Services;
 
 namespace MTS.Northwind.AspMvcCoreUI
 {
@@ -25,6 +26,9 @@ namespace MTS.Northwind.AspMvcCoreUI
             services.AddScoped<IProductDal, EfProductDal>();
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
+            services.AddSingleton<ICartService,CartService >();
+            services.AddSingleton<ICartSessionService, CartSessionService>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSession();
             services.AddDistributedMemoryCache();
 
