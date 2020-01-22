@@ -61,5 +61,15 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
 
 
         }
+        public ActionResult Remove(int productID)
+        {
+
+            var cart = _cartSessionService.GetCart();
+            _cartService.RemoveFromCart(cart, productID);
+            _cartSessionService.SetCart(cart);
+            TempData.Add("messega", "your Product {0} , was succesfuly removed to the cart");
+
+            return RedirectToAction("List");
+        }
     }
 }
