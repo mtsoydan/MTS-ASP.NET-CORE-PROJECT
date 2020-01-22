@@ -1,0 +1,15 @@
+﻿@model MTS.Northwind.AspMvcCoreUI.Models.CartSummaryViewModel
+
+
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    @foreach (var item in Model.Cart.CartLines)
+    {
+        <a class="dropdown-item" href="#">@item.Product.ProductName <span class="badge">@item.Quantity</span></a>
+
+    }
+    <a class="dropdown-item" href="#">Another action</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#"><span class="glypicon glypicon-align-left glypicon-shopping-cart" aria-hidden="true">@Model.Cart.Total</span></a>
+    <a asp-controller="Cart" asp-action="List">Go to Card Detail</span></a>
+
+</div>
