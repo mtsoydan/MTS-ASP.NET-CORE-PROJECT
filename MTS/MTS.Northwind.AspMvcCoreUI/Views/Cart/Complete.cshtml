@@ -1,0 +1,45 @@
+﻿@model MTS.Northwind.AspMvcCoreUI.Models.ShippingDetailViewModel
+@{
+    Layout = "~/Views/_Layout.cshtml";
+
+}
+
+<h2>Shipping Details</h2>
+<form asp-controller="Cart" asp-action="Complete" method="post">
+    <div class="form-group">
+        <label asp-for="Details.FirstName"></label>
+        <input asp-for="Details.FirstName" class="form-control" placeholder="First Name">
+        <span asp-validation-for="Details.FirstName"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Details.LastName"></label>
+        <input asp-for="Details.LastName" class="form-control" placeholder="Last Name">
+        <span asp-validation-for="Details.LastName"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Details.Adress"></label>
+        <input asp-for="Details.Adress" class="form-control" placeholder="Address">
+        <span asp-validation-for="Details.Adress"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Details.City"></label>
+        <input asp-for="Details.City" class="form-control" placeholder="City">
+        <span asp-validation-for="Details.City"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Details.Email"></label>
+        <input asp-for="Details.Email" class="form-control" placeholder="Email">
+        <span asp-validation-for="Details.Email"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Details.Age"></label>
+        <input asp-for="Details.Age" class="form-control" placeholder="Age">
+        <span asp-validation-for="Details.Age"></span>
+    </div>
+    <input type="submit" value="Complete Shopping" class="btn btn-xs btn-success" />
+</form>
+
+
+

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using MTS.Northwind.AspMvcCoreUI.Models;
 using MTS.Northwind.AspMvcCoreUI.Services;
 using MTS.Northwind.Business.Abstract;
+using MTS.Northwind.Entities.Concrete;
 
 namespace MTS.Northwind.AspMvcCoreUI.Controllers
 {
@@ -67,9 +68,28 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
             var cart = _cartSessionService.GetCart();
             _cartService.RemoveFromCart(cart, productID);
             _cartSessionService.SetCart(cart);
-            TempData.Add("messega", "your Product {0} , was succesfuly removed to the cart");
+            TempData.Add("messega", "your Product was succesfuly removed to the cart");
 
             return RedirectToAction("List");
+        }
+
+        public ActionResult Complete()
+        {
+            var ShippingDetail = new ShippingDetailViewModel
+            {
+                Details = new ShippingDetails()
+            };
+            return View(ShippingDetail);
+        }
+        [HttpPost]
+        public ActionResult Complete(ShippingDetails shippingDetails)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            TempData.Add("messega", string.Format("Alışveriş için Teşekkürler {0}",shippingDetails.FirstName));
+            return View();
         }
     }
 }
