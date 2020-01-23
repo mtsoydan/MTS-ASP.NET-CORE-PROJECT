@@ -67,3 +67,5 @@ C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.AspMvcCoreUI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\CardSummary\Default.g.cshtml.cs
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.AspMvcCoreUI\obj\Debug\netcoreapp2.2\Razor\Views\Cart\List.g.cshtml.cs
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.AspMvcCoreUI\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Complete.g.cshtml.cs
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.AspMvcCoreUI\obj\Debug\netcoreapp2.2\Razor\Views\_AdminLayout.g.cshtml.cs
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Northwind.AspMvcCoreUI\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.g.cshtml.cs

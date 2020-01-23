@@ -1,0 +1,38 @@
+﻿@model MTS.Northwind.AspMvcCoreUI.Models.ProductListViewModel
+@{
+    Layout = "~/Views/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2>ProductList</h2>
+    <a class="btn btn-xs btn-success" asp-controller="Admin" asp-action="Insert">Add To Product</a>
+    <div class="row">
+        <table class="table table-responsive">
+            <tr>
+                <td>ProductID </td>
+                <td>ProductName</td>
+                <td>UnitsInStock</td>
+                <td></td>
+                <td></td>
+            </tr>
+            @foreach (var product in Model.Products)
+            {
+            <tr>
+                <td>@product.ProductID </td>
+                <td>@product.ProductName</td>
+                <td>@product.UnitsInStock</td>
+                <td><a class="btn btn-xs btn-info" asp-controller="Admin" asp-action="Update" asp-route-ProductID="@product.ProductID">Update</a></td>
+                <td><a class="btn btn-xs btn-danger" asp-controller="Admin" asp-action="Delete" asp-route-ProductID="@product.ProductID">Delete</a></td>
+            </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
