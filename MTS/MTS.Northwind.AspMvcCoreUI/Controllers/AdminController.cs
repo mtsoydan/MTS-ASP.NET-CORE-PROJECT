@@ -36,17 +36,19 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
         {
             _productService.Add(product);
             TempData.Add("message", "Product was add a successfully");
-            return View();
+          return  RedirectToAction("Add");
 
         }
         public ActionResult Add()
         {
+            
+            //Ekleme modelinde categori bilgileri view a gönderiliyor
             var model = new ProductAddViewModel()
             {
                 Product = new Product(),
                 Categories = _categoryService.GetAll()
             };
-            return RedirectToAction("Add");
+            return View(model);
 
 
         }
