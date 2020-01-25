@@ -19,7 +19,6 @@ C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-PRACTICE\MTS\MTS.Core\obj\Debug\
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\bin\Debug\netcoreapp2.1\MTS.Core.deps.json
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\bin\Debug\netcoreapp2.1\MTS.Core.dll
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\bin\Debug\netcoreapp2.1\MTS.Core.pdb
-C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\obj\Debug\netcoreapp2.1\MTS.Core.csprojAssemblyReference.cache
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\obj\Debug\netcoreapp2.1\MTS.Core.csproj.CoreCompileInputs.cache
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\obj\Debug\netcoreapp2.1\MTS.Core.AssemblyInfoInputs.cache
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\obj\Debug\netcoreapp2.1\MTS.Core.AssemblyInfo.cs

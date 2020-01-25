@@ -52,5 +52,26 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
 
 
         }
+        [HttpPost]
+        public ActionResult Update(Product product)
+        {
+            _productService.Update(product);
+            TempData.Add("message", "Product was add a successfully");
+            return RedirectToAction("Update");
+
+        }
+        public ActionResult Update(int productID)
+        {
+
+            //Ekleme modelinde categori bilgileri view a gönderiliyor
+            var model = new ProductUpdateViewModel()
+            {
+                Product = _productService.GetByID(productID),
+                Categories = _categoryService.GetAll()
+            };
+            return View(model);
+
+
+        }
     }
 }

@@ -13,6 +13,7 @@ namespace MTS.Northwind.Entities.Concrete
         public String LastName { get; set; }
         [Required]
         public string City { get; set; }
+       
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
         [Required]
