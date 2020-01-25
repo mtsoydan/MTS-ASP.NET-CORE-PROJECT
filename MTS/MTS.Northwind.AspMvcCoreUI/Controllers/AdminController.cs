@@ -13,9 +13,11 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
     {
 
         IProductService _productService;
-        public AdminController(IProductService productService)
+        ICategoryService _categoryService;
+        public AdminController(IProductService productService,ICategoryService categoryService)
         {
             _productService = productService;
+            _categoryService = categoryService;
         }
         public ActionResult Index()
         {
@@ -39,7 +41,12 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
         }
         public ActionResult Add()
         {
-            return View();
+            var model = new ProductAddViewModel()
+            {
+                Product = new Product(),
+                Categories = _categoryService.GetAll()
+            };
+            return RedirectToAction("Add");
 
 
         }

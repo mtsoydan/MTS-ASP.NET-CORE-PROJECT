@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 
 <h2>Add Product </h2>
-<h1>@TempData["message"]</h1>
+<h1>@TempData["message"] </h1>
 <form asp-action="Add" asp-controller="Admin" method="post">
     <div class="form-group">
         <label asp-for="Product.ProductName"></label>
@@ -17,7 +17,7 @@
     </div>
     <div class="form-group">
         <label asp-for="Product.CategoryID"></label>  
-        <input class="form-control" asp-for="Product.CategoryID " placeholder="Category ID" />
+        <select class="form-control" asp-for="Product.CategoryID " asp-items="@(new SelectList(Model.Categories,"CategoryID","CategorName"))" ></select>
         <span asp-validation-for="Product.CategoryID"> </span>
 
     </div>
