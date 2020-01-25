@@ -73,5 +73,16 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
 
 
         }
+        public ActionResult Delete(int productID)
+        {
+
+            //Ekleme modelinde categori bilgileri view a gönderiliyor
+            Product product = _productService.GetByID(productID);
+            _productService.Delete(product);
+            TempData.Add("message", "Product was succesfully deleted");
+            return RedirectToAction("Index");
+
+
+        }
     }
 }
