@@ -24,3 +24,4 @@ C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\obj\
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\obj\Debug\netcoreapp2.1\MTS.Core.AssemblyInfo.cs
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\obj\Debug\netcoreapp2.1\MTS.Core.dll
 C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\obj\Debug\netcoreapp2.1\MTS.Core.pdb
+C:\Users\asus\Documents\GitHub\ASP.NET-CORE-MVC-SAMPLE-PROJECT\MTS\MTS.Core\obj\Debug\netcoreapp2.1\MTS.Core.csprojAssemblyReference.cache

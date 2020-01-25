@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MTS.Northwind.AspMvcCoreUI.Models;
 using MTS.Northwind.Business.Abstract;
@@ -9,6 +10,7 @@ using MTS.Northwind.Entities.Concrete;
 
 namespace MTS.Northwind.AspMvcCoreUI.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
 
