@@ -13,6 +13,9 @@ using MTS.Northwind.Business.Concrete;
 using MTS.Northwind.DataAccess.Abstract;
 using MTS.Northwind.DataAccess.Concrete.EntityFrameWork;
 using MTS.Northwind.AspMvcCoreUI.Services;
+using MTS.Northwind.AspMvcCoreUI.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace MTS.Northwind.AspMvcCoreUI
 {
@@ -29,6 +32,8 @@ namespace MTS.Northwind.AspMvcCoreUI
             services.AddSingleton<ICartService,CartService >();
             services.AddSingleton<ICartSessionService, CartSessionService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddDbContext<CustomIdentityDbContext>(options => options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=Northwind;Trusted_Connection=true"));
+            services.AddIdentity<CustomIdentityUser, CustomIdentityRole>().AddEntityFrameworkStores<CustomIdentityDbContext>().AddDefaultTokenProviders();
             services.AddSession();
             services.AddDistributedMemoryCache();
 
@@ -50,6 +55,7 @@ namespace MTS.Northwind.AspMvcCoreUI
             //use.staticFiles();
             //Yerine use file server kullanabiliriz
             app.UseFileServer();
+            app.UseIdentity();
             //extension methodumuza env içindeki root u gönderip konfigrasyonu tamamlıyoruz
             app.UseSession();
             app.UseNodeModules(env.ContentRootPath);
