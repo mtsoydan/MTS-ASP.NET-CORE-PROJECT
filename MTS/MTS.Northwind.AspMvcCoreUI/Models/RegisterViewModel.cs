@@ -13,9 +13,9 @@ namespace MTS.Northwind.AspMvcCoreUI.Models
         [Required]
          [DataType(DataType.Password)]
         public string PassWord { get; set; }
-        [Required]
-        [DataType(DataType.Password)]
-        public string ConfirmPassWord { get; set; }
+        //[Required]
+        //[DataType(DataType.Password)]
+        //public string ConfirmPassWord { get; set; }
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }

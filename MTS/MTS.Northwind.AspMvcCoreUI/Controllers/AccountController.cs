@@ -79,7 +79,7 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
                 var result = _SingInManager.PasswordSignInAsync(loginViewModel.UserName, loginViewModel.PassWord, loginViewModel.RememberMe, false).Result;
                 if (result.Succeeded)
                 {
-                    RedirectToAction("Index", "Admin");
+                  return  RedirectToAction("Index", "Admin");
                 }
                 else
                 {
