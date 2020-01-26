@@ -32,7 +32,9 @@ namespace MTS.Northwind.AspMvcCoreUI
             services.AddSingleton<ICartService,CartService >();
             services.AddSingleton<ICartSessionService, CartSessionService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            //DbContext sınıfları için sql yolunu veriyoruz 
             services.AddDbContext<CustomIdentityDbContext>(options => options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=Northwind;Trusted_Connection=true"));
+            //Identity kullanmak için -->AddEntityFrameWorkstore için customIdentityDb context veriyoruz DefaultTOken kullanıcı verilerini sayfalar arası taşır
             services.AddIdentity<CustomIdentityUser, CustomIdentityRole>().AddEntityFrameworkStores<CustomIdentityDbContext>().AddDefaultTokenProviders();
             services.AddSession();
             services.AddDistributedMemoryCache();
@@ -55,8 +57,11 @@ namespace MTS.Northwind.AspMvcCoreUI
             //use.staticFiles();
             //Yerine use file server kullanabiliriz
             app.UseFileServer();
+            //App
+#pragma warning disable CS0618 // Type or member is obsolete
             app.UseIdentity();
-            //extension methodumuza env içindeki root u gönderip konfigrasyonu tamamlıyoruz
+#pragma warning restore CS0618 // Type or member is obsolete
+                              //extension methodumuza env içindeki root u gönderip konfigrasyonu tamamlıyoruz
             app.UseSession();
             app.UseNodeModules(env.ContentRootPath);
             app.UseMvcWithDefaultRoute();
