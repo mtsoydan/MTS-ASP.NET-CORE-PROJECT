@@ -83,14 +83,15 @@ namespace MTS.Northwind.AspMvcCoreUI.Controllers
                 }
                 else
                 {
+                    TempData.Add("message", "Giriş İşlemi Başarısız Tekrar Deneyiniz");
                     ModelState.AddModelError("", "Invalid Login");
                 }
             }
             return View(loginViewModel);
         }
        
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
         public ActionResult LogOff()
         {
             _SingInManager.SignOutAsync().Wait();

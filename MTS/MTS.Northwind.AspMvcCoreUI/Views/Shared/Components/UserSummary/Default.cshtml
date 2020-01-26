@@ -1,0 +1,18 @@
+﻿@model MTS.Northwind.AspMvcCoreUI.Models.UserSummaryViewModel
+@{
+    ViewData["Title"] = "Default";
+}
+
+<ul class="dropdown-menu">
+    @if (!String.IsNullOrEmpty(@Model.User))
+    {
+
+        <li>
+            <a>welcome @Model.User</a>
+        </li>
+        <li > <a asp-action="LogOff" asp-controller="Account">LogOut</a></li>
+
+    }
+</ul>
+
+

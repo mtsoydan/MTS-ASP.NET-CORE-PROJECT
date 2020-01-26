@@ -10,6 +10,7 @@ using MTS.Northwind.Entities.Concrete;
 
 namespace MTS.Northwind.AspMvcCoreUI.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class AdminController : Controller
     {
 

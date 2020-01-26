@@ -16,6 +16,7 @@ using MTS.Northwind.AspMvcCoreUI.Services;
 using MTS.Northwind.AspMvcCoreUI.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Routing;
 
 namespace MTS.Northwind.AspMvcCoreUI
 {
@@ -64,7 +65,12 @@ namespace MTS.Northwind.AspMvcCoreUI
                               //extension methodumuza env içindeki root u gönderip konfigrasyonu tamamlıyoruz
             app.UseSession();
             app.UseNodeModules(env.ContentRootPath);
-            app.UseMvcWithDefaultRoute();
+            app.UseMvc(configureRoutes);
+        }
+
+        private void configureRoutes(IRouteBuilder obj)
+        {
+            obj.MapRoute("Default", "{controller=Product}/{action=Index}/{id?}");
         }
     }
 }
